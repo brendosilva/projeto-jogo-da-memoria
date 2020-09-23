@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+
+div.col-md-3 {
+    margin-bottom: 7px;
+}
+
+@media screen and (max-width: 780px) {
+    div#conteudo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    } 
+    div#button {
+        display: flex;
+        flex-direction: column;
+    }
+    button.inicio {  
+        width: 400px;      
+        margin-right: 75px;
+        margin-bottom: 20px;
+    }
+    button.mostrar {
+        width: 400px;
+    }
+    
+}
+
